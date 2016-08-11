@@ -1,6 +1,7 @@
 .content {
-  margin: 0 auto;
-  width: 60%;
+ /* margin: 0 auto;*/
+ /* width: 60%;*/
+  position: relative
 }
 
 #hiddenMessage {
@@ -8,3 +9,12 @@
   border: red 10px solid;
   display: none;
 }
+ #startButton {
+   position: absolute;
+ }
+
+  /*  body{background-image: url("https://media.licdn.com/media//AAEAAQAAAAAAAAgaAAAAJDdjMTg3MmVhLWU4NTgtNDMwMC04YjBhLTI0MzYwYjcxMDg1Yw.jpg");
+   
+  background-size: cover;
+
+    } */
