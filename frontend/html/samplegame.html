@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../js/landing.js"></script>
+        <script src="../js/Ballgame.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/helloworld.css">  
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
@@ -10,6 +18,8 @@ canvas {
 </style>
 </head>
 <body onload="startGame()">
+ <button id="homeButton" class="btn btn-primary btn-sm">Home</button>
+
 <script>
 
 var myGamePiece;
