@@ -13,15 +13,17 @@
    position: absolute;
  }
 
-  /*  body{background-image: url("https://media.licdn.com/media//AAEAAQAAAAAAAAgaAAAAJDdjMTg3MmVhLWU4NTgtNDMwMC04YjBhLTI0MzYwYjcxMDg1Yw.jpg");
+   body{background-image: url("3dzoom.gif");
    
   background-size: cover;
 
-    } */
-    div.myButton input {
+    } 
+    /*div.myButton input {
     background:url(../html/pig.jpg) no-repeat;
     cursor:pointer;
     width: 200px;
     height: 100px;
     border: none;
 }
+*/
+
