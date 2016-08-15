@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="team.js"></script>
+    <link rel="stylesheet" type="text/css" href="team.css">
+    <script src="Ballgame.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
+  </head>
+
+<body>
+    
+<h1>External JavaScript</h1>
+
+<!--<p id="demo">A Paragraph.</p>
+
+<button class="btn btn-primary btn-sm" type="button" onclick="myFunction()">Try it</button>
+
+<p><strong>Note:</strong> myFunction is stored in an external file called "myScript.js".</p>
+-->
+<button type="submit" onclick="window.open('Ballgame.js')">Download!</button>
+
+
+<script src="ballgame.js"></script>
+    <button class="btn btn-primary btn-sm">
+        <form action="../js/Ballgame.js">
+        <input type="submit" value="PLAY"/>
+    </form>
+    </button>
+This is the game page.
+    8/06.. It now has a working home button. ..
+    Game Play is next..
+    <button id="homeButton" class="btn btn-primary btn-sm">Home</button>
+
+</body>
+
+</html>
