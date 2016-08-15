@@ -29,9 +29,10 @@ $('#menuOptionsButton').click(function() {
     $("#bankButton").click(function() {
         window.location = "anna2.html"
     });
-})
+
    $("#creditRoll").click(function() {
         window.location = "denzel.html"
     });
 
+})
     

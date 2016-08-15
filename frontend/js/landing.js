@@ -1,20 +1,4 @@
 $(document).ready(function(){
-<<<<<<< HEAD
-   $('#menuOptions').hide();
-   
-   
-   $('#menuOptionsButton').click(function() {
-       $('#menuOptions').show();
-   })
-   
-   
-   
-   $('#startbutton').click(function() {
-       window.open("./startpage.html");
-   })
-   }
-)
-=======
     $('#menuOptions').hide();
         
 $('#menuOptionsButton').click(function() {
@@ -37,4 +21,3 @@ $('#menuOptionsButton').click(function() {
 })
 
     
->>>>>>> c3cce8ed435a96cdeb466f781a3e75933a50267f
