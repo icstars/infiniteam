@@ -1,10 +1,71 @@
 .content {
   margin: 0 auto;
   width: 60%;
+  
 }
 
 #hiddenMessage {
   padding: 10px;
-  border: red 10px solid;
+  border: orange 10px solid;
   display: none;
+  color: ivory;
+  font-size: 40 px;
 }
+
+/*Copyright bottom line*/
+#cr {
+    
+    color: #778899;
+    text-indent: 50px;
+    padding-top: 50px;
+    margin-left: 200px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    position:absolute;
+    bottom: 40;
+    left:0;
+    }
+    
+body {
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-image: url("http://static.vecteezy.com/system/resources/previews/000/095/205/original/space-vector-set.jpg");
+   height: 90%;
+   overflow-y: hidden;
+}
+#pblogo {
+    position:absolute;
+    bottom:15;
+    right:0;
+    left:150;
+   
+  }
+h1 {
+            color: gold; 
+            font-family: Big Caslon;
+            margin: auto;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            word-spacing: 10px;
+            letter-spacing: 2px;
+            
+    
+}
+h2 {
+       font-family: Futura;
+    color: orange; 
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #000080;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+ 
+ h3 {   color: ivory;
+       font-family: Futura;
+       color: white;
+       text-shadow: 2px 2px 4px #000000;
+       word-spacing: 8px;
+}
+
+
