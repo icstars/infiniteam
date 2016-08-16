@@ -13,7 +13,7 @@ $('#menuOptionsButton').click(function() {
     window.location = "samplegame.html" 
  }) 
     $("#homeButton").click(function() {
-    window.location = "landing.html"                   
+    window.location = "home-page.html"                   
  })
     $("#bankPage").click(function() {
         window.location = "Bank.html"
