@@ -1,7 +1,24 @@
 .content {
+<<<<<<< a2da176508fb8d7d6a20f25ccd295c9f6f55e18e
  /* margin: 0 auto;*/
  /* width: 60%;*/
   position: relative
+=======
+
+  margin: 0 auto;
+  width: 60%;
+ /* background-position: fixed;
+   background-repeat: no-repeat;
+   background-image: url();
+   height: 90%;
+   overflow-y: hidden;}*/
+  
+=======
+ /* margin: 0 auto;*/
+ /* width: 60%;*/
+  position: relative
+
+>>>>>>> add 2 files gitingore
 }
 
 #hiddenMessage {
@@ -9,6 +26,68 @@
   border: red 10px solid;
   display: none;
 }
+<<<<<<< a2da176508fb8d7d6a20f25ccd295c9f6f55e18e
+=======
+
+
+/*Copyright bottom line*/
+#cr {
+    
+    color: #778899;
+    text-indent: 50px;
+    padding-top: 50px;
+    margin-left: 200px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    position:absolute;
+    bottom: 40;
+    left:0;
+    }
+    
+body {
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-image: url("http://static.vecteezy.com/system/resources/previews/000/095/205/original/space-vector-set.jpg");
+   height: 90%;
+   overflow-y: hidden;
+}
+#pblogo {
+    position:absolute;
+    bottom:15;
+    right:0;
+    left:150;
+   
+  }
+h1 {
+            color: gold; 
+            font-family: KBAStitchIntime ;
+            margin: auto;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            word-spacing: 10px;
+            letter-spacing: 2px;
+            
+    
+}
+h2 {
+       font-family: Futura;
+    color: orange; 
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #000080;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+ 
+ h3 {   color: ivory;
+       font-family: Futura;
+       color: white;
+       text-shadow: 2px 2px 4px #000000;
+       word-spacing: 8px;
+}
+
+
+>>>>>>> add 2 files gitingore
  #startButton {
    position: absolute;
  }
@@ -28,6 +107,7 @@
     border: none;
 }
 */
+<<<<<<< a2da176508fb8d7d6a20f25ccd295c9f6f55e18e
 a {
     display: inline-block;
     border: 1px solid #ddd;
@@ -44,3 +124,41 @@ a:hover {
 <a href="paris.jpg">
   <img src="paris.jpg" alt="Paris">
 </a>
+=======
+#banktitle {
+ 
+    font-size: 40 px;
+}
+
+.flip_container {
+                   width: 250px;
+                    height: 250px;
+                         }
+.flip_container:hover .flip 
+                        {      
+          -webkit-transform: rotateY(180deg);
+                           transform: rotateY(180deg);
+                 }
+.flip {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+          -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+        }
+.flip_front, .flip_back {
+                            -webkit-backface-visibility: hidden;
+                                    backface-visibility: hidden;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                                    }
+.flip_front {
+           -webkit-transform: rotateY(0deg);
+                   transform: rotateY(0deg);
+                   }
+.flip_back {
+            -webkit-transform: rotateY(180deg);
+                    transform: rotateY(180deg);
+                  }
+>>>>>>> add 2 files gitingore
