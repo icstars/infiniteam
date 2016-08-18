@@ -1,0 +1,49 @@
+body {
+   background-position: fixed;
+   background-repeat: no-repeat;
+   background-image: url("http://static.vecteezy.com/system/resources/previews/000/095/205/original/space-vector-set.jpg");
+   height: 90%;
+   overflow-y: hidden;
+} 
+.flip_container{
+                   width: 250px;
+                    height: 250px;
+                         }
+.flip_container:hover .flip 
+                        {      
+          -webkit-transform: rotateY(180deg);
+                           transform: rotateY(180deg);
+                 }
+.flip {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+          -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+        }
+.flip_front, .flip_back {
+                            -webkit-backface-visibility: hidden;
+                                    backface-visibility: hidden;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                                    }
+.flip_front {
+           -webkit-transform: rotateY(0deg);
+                   transform: rotateY(0deg);
+                   }
+.flip_back {
+            -webkit-transform: rotateY(180deg);
+                    transform: rotateY(180deg);
+                  }
+                  
+ h1 {
+            color: gold; 
+            font-family: KBAStitchIntime ;
+            margin: auto;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            word-spacing: 10px;
+            letter-spacing: 2px;
+            
