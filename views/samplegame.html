@@ -18,7 +18,7 @@ canvas {
 </style>
 </head>
 <body onload="startGame()">
- <button id="homeButton" class="btn btn-primary btn-sm">Home</button>
+ 
 
 <script>
 
@@ -27,7 +27,7 @@ var myObstacles = [];
 var myScore;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "red", 10, 120);
+    myGamePiece = new component(30, 30, "red", 10, 10);
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
     myGameArea.start();
@@ -109,11 +109,11 @@ function updateGameArea() {
     }
     myGameArea.clear();
     myGameArea.frameNo += 1;
-    if (myGameArea.frameNo == 1 || everyinterval(150)) {
+    if (myGameArea.frameNo == 1 || everyinterval(1)) {
         x = myGameArea.canvas.width;
-        minHeight = 20;
+        minHeight = 50;
         maxHeight = 200;
-        height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
+        height = 20
         minGap = 50;
         maxGap = 200;
         gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
@@ -124,7 +124,7 @@ function updateGameArea() {
         myObstacles[i].x += -1;
         myObstacles[i].update();
     }
-    myScore.text="SCORE: " + myGameArea.frameNo;
+    myScore.text="Coins: " + myGameArea.frameNo;
     myScore.update();
     myGamePiece.newPos();
     myGamePiece.update();
@@ -140,8 +140,9 @@ function accelerate(n) {
 }
 </script>
 <br>
+<button id="homeButton" class="btn btn-primary btn-sm">Home</button>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the ACCELERATE button to stay in the air</p>
+<p>Use the UP button to stay in the air</p>
 <p>How long can you stay alive?</p>
 </body>
 </html>
