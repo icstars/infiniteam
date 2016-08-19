@@ -3,11 +3,59 @@ body {
    background-repeat: no-repeat;
    background-image: url("http://static.vecteezy.com/system/resources/previews/000/095/205/original/space-vector-set.jpg");
    height: 90%;
-   overflow-y: hidden;
-} 
-.flip_container{
-                   width: 250px;
-                    height: 250px;
+   
+   } 
+
+h1 {
+            color: gold; 
+            font-family: KBAStitchIntime ;
+            margin: auto;
+            font-size: 50px;
+            font-weight: bold;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+            word-spacing: 10px;
+            letter-spacing: 2px;
+            margin-left: 25%;
+    
+   }
+h2 {
+       font-family: Futura;
+    color: orange; 
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #000080;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+    
+table#t01 {
+    width: 60%; 
+    background-color: #F4A460;
+    border: 2px solid #4169E1;
+    border-collapse: collapse;
+    
+}
+table#t01 th {
+    background-color: gold;
+    color: #4682B4;
+    text-align: center;
+    font-family: Futura;
+    font-size: 30px;
+    
+}
+td {
+       text-align: center;
+       font-family: Futura;
+       font-size: 16px;
+       color: #4169E1;
+}
+
+li { display: inline;
+    position: relative;
+    margin-left: 20%;
+}
+
+.flip_container {
+                   width: 100px;
+                    height: 100px;
                          }
 .flip_container:hover .flip 
                         {      
@@ -36,14 +84,3 @@ body {
             -webkit-transform: rotateY(180deg);
                     transform: rotateY(180deg);
                   }
-                  
- h1 {
-            color: gold; 
-            font-family: KBAStitchIntime ;
-            margin: auto;
-            font-size: 50px;
-            font-weight: bold;
-            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-            word-spacing: 10px;
-            letter-spacing: 2px;
-            
