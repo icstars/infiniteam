@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
-    <script src="../js/landing.js"></script>
-        <script src="../js/Ballgame.js"></script>
-
+ <head>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="team.js"></script>
+    <link rel="stylesheet" type="text/css" href="team.css">
+    <script src="Ballgame.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
           crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../css/helloworld.css">  
+  </head>
+
+<body> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 canvas {
@@ -18,7 +20,8 @@ canvas {
 </style>
 </head>
 <body onload="startGame()">
- 
+ <button id="homeButton" class="btn btn-primary btn-sm">Home</button>
+ <button id="reStart" class="btn btn-primary btn-sm">Restart</button>
 
 <script>
 
@@ -27,7 +30,7 @@ var myObstacles = [];
 var myScore;
 
 function startGame() {
-    myGamePiece = new component(30, 30, "red", 10, 10);
+    myGamePiece = new component(30, 30, "red", 10, 120);
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
     myGameArea.start();
@@ -109,11 +112,11 @@ function updateGameArea() {
     }
     myGameArea.clear();
     myGameArea.frameNo += 1;
-    if (myGameArea.frameNo == 1 || everyinterval(1)) {
+    if (myGameArea.frameNo == 1 || everyinterval(150)) {
         x = myGameArea.canvas.width;
-        minHeight = 50;
+        minHeight = 20;
         maxHeight = 200;
-        height = 20
+        height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
         minGap = 50;
         maxGap = 200;
         gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
@@ -124,7 +127,7 @@ function updateGameArea() {
         myObstacles[i].x += -1;
         myObstacles[i].update();
     }
-    myScore.text="Coins: " + myGameArea.frameNo;
+    myScore.text="SCORE: " + myGameArea.frameNo;
     myScore.update();
     myGamePiece.newPos();
     myGamePiece.update();
@@ -140,9 +143,9 @@ function accelerate(n) {
 }
 </script>
 <br>
-<button id="homeButton" class="btn btn-primary btn-sm">Home</button>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the UP button to stay in the air</p>
+<p>Use the ACCELERATE button to stay in the air</p>
 <p>How long can you stay alive?</p>
 </body>
 </html>
+
