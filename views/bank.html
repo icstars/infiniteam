@@ -10,19 +10,34 @@
           crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../styles/bank.css">
   </head>
-<title>Title of the document</title>
-</head>
+    <title>bank page</title>
+   </head>
 
 <body>
     <h1>Savvy Bank </h1>
     <img src="../assets/pig.jpg">
-    <button id="homeButton" class="btn btn-primary btn-md">Home</button>
-    <button type="button" class="btn btn-warning">Save</button>
-    <button type="button" class="btn btn-info">Spend</button>
-    <button type="button" class="btn btn-success">Donate</button>
-    <button type="button" class="btn btn-danger">Invest</button>
     
-    <div class="flip_container">
+       <ul class="buttons"> 
+          <li>
+            <button id="homeButton" class="btn btn-primary btn-md">Home</button>
+            <a href="save-b.html" type="button" class="btn btn-warning">Save</a>
+            <a href="spend-b.html" type="button" class="btn btn-info"> Spend </a>
+           <a href="donate-b.html" type="button" class="btn btn-success">Donate </a>
+           <a href="invest-b.html" class="btn btn-danger">Invest </a>
+         </li>
+       </ul>
+       
+    <h2> Learn Coins </h2>
+    <table id="t01">
+  
+  <tr>
+    <th>Heads/Front and Tails/Back </th>
+    <th>Coin name</th> 
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>
+        <div class="flip_container">
     <div class="flip">
 <div class="flip_front">
     <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/2010_cent_obverse.png" width="100" height="100"></img>        
@@ -34,7 +49,12 @@
         </div>
      </div>
 </div>
-    
+<td>Penny</td> 
+<td>1 cent</td>
+    </td>
+    </tr> 
+    <tr> 
+       <td>
     <div class="flip_container">
     <div class="flip">
 <div class="flip_front">
@@ -46,8 +66,54 @@
         </div>
      </div>
 </div>
+  <td>Nickel</td> 
+<td>5 cents</td>
+</tr>
+   </td>
+    <tr>
+    <td>
+        <div class="flip_container">
+    <div class="flip">
+<div class="flip_front">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Dime_Obverse_13.png" width="100" height="100"></img>        
 
+    </div>
+        <div class="flip_back">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Dime_Reverse_13.png"  width="100" height="100"></img>
+     <br>
+     <br>
+        </div>
+     </div>
+</div>
+<td>Dime</td> 
+<td>10 cents</td>
+    </td>
+    </tr> 
+   
+   <tr>
+    <td>
+        <div class="flip_container">
+    <div class="flip">
+<div class="flip_front">
+    <img src="http://images.clipartpanda.com/quarter-clipart-US_Quarter_front_T.png" width="110" height="110"></img>        
 
-</body>
-
+    </div>
+        <div class="flip_back">
+    <img src="http://www.thecoinspot.com/25c/1988%20Type%202%20Clad%20Washington%20Quarter%20Reverse.png"  width="110" height="110"></img>
+     <br>
+     <br>
+        </div>
+     </div>
+</div>
+<td>Quarter</td> 
+<td>25 cents</td>
+    </td>
+    </tr> 
+  
+</table>
+    </body>
 </html>
+    
+ 
+
+
