@@ -1,0 +1,43 @@
+body {background-image:url("http://static.tumblr.com/e6c66693fd556d0238902201972d0600/z7sewyz/vwWo7w6i4/tumblr_static_7lsovhd013kssko4og8osc80k.gif");background-attachment: fixed ;   }
+p {color:yellow;text-align: ;}
+
+#titles {
+	position: absolute;
+	width: 20em;
+	height: 50em;
+	bottom: 0;
+	left: 50%;
+	margin-left: -4em;
+	font-size: 350%;
+	font-weight: bold;
+	text-align: absolute;
+	overflow: hidden;
+	transform-origin: 15% 100%;
+	transform: perspective(225px) rotateX(22deg);
+}
+
+
+#titles:after
+{
+	position: absolute;
+	content: "";
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 60%;
+	background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+	pointer-events: none;
+}
+
+
+#titlecontent
+{
+	position: absolute;
+	top: 100%;
+	animation: scroll 100s linear 4s infinite;
+}
+
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -170%; }
+}
