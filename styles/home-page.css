@@ -3,3 +3,29 @@
   width: 60%;
   position: relative
 }
+
+h1 {
+  text-align: center;
+}
+
+#creditspage,#logout{
+  display: block;
+}
+
+.menu-button {
+  width:300px;
+  height:100px;
+  margin-left:250px;
+}
+
+form,.home-page-buttons{
+  margin-bottom:20px;
+}
+
+#play {
+  margin-top: 20px;
+}
+
+#sound-button{
+  float:right;
+}

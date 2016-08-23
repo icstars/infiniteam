@@ -24,6 +24,10 @@ $('#menuOptionsButton').click(function() {
     })
     $("#logOut").click(function() {
     window.location = "login-page.html"                   
- });
+ })
+
+    $("#creditRoll").click(function() {
+    window.location = "credits.html" 
 })
     
+});
