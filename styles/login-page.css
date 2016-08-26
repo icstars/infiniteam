@@ -58,14 +58,14 @@ h1 {
     
 }
 h2 {
-       font-family: Futura;
+    font-family: Futura;
     color: orange; 
     text-shadow: 0 0 3px #FF0000, 0 0 5px #000080;
     word-spacing: 8px;
     letter-spacing: 2px;
 }
  
- h3 {   color: ivory;
+ h3 {  color: ivory;
        font-family: Futura;
        color: white;
        text-shadow: 2px 2px 4px #000000;

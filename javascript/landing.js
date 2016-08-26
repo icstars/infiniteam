@@ -9,15 +9,14 @@ $('#menuOptionsButton').click(function() {
 // $("#startButton").click(function() {
  //   window.location = "gamepage.html" 
 // })  
-  $("#startButton").click(function() {
-    window.location = "samplegame.html" 
- }) 
-    $("#homeButton").click(function() {
-    window.location = "landing.html"                   
- })
+ // $("#startButton").click(function() {
+ //   window.location = "samplegame1.html" 
+// }) 
+ //   $("#homeButton").click(function() {
+  //  window.location = "home-page.html"                   
+// })
     $("#bankPage").click(function() {
         window.location = "Bank.html"
     });
 })
 
-    

@@ -1,0 +1,47 @@
+body { 
+  background: url("../assets/game bg-03.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.content {
+  margin: 0 auto;
+  width: 60%;
+  position: relative
+}
+#gobackbutton {
+  float: right;
+  margin-top: 70 px;
+}
+h2 {
+    font-family: Futura;
+    color: gold; 
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #000080;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+
+p {
+  color: ivory;
+  border: salmon 3px solid;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+p3 {
+  color: orange;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+ul { 
+  font-family: Futura;
+    color: gold;
+    font-size: 30px;
+  
+}
+li { color: ivory;
+     font-family: Futura;
+     font-size: 25px;
+     text-shadow: 2px 2px 4px #000000;
+     font-weight: bold;
+}
