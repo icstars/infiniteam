@@ -31,6 +31,12 @@ h2 {
   font-family: Futura;
   font-size: 20px;
 }
+.pig { 
+   
+    margin: auto;
+    width: 80%;
+    
+}
 table#t01 {
     width: 60%; 
     background-color: #F4A460;
