@@ -45,6 +45,14 @@ body {
     left:150;
    
   }
+  #mslogo {
+      position:relative;
+      bottom:20;
+      right:0;
+    left:300;
+      
+      
+  }
 h1 {
             color: gold; 
             font-family: KBAStitchIntime ;
@@ -57,6 +65,9 @@ h1 {
             
     
 }
+.name 
+{ width: 150px; height: 500px; 
+border: 1px solid #999999; padding: 5px; }
 h2 {
     font-family: Futura;
     color: orange; 
@@ -65,11 +76,11 @@ h2 {
     letter-spacing: 2px;
 }
  
- h3 {  color: ivory;
+ h3 {  color: orange;
        font-family: Futura;
-       color: white;
-       text-shadow: 2px 2px 4px #000000;
+       text-shadow: 0 0 3px #FF0000, 0 0 5px #000080;
        word-spacing: 8px;
+       letter-spacing: 2px;
 }
 
 
