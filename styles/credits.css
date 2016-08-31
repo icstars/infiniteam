@@ -1,8 +1,16 @@
-body {background-image:url("http://static.tumblr.com/e6c66693fd556d0238902201972d0600/z7sewyz/vwWo7w6i4/tumblr_static_7lsovhd013kssko4og8osc80k.gif");background-attachment: fixed ;   }
+body {
+	background-image:url("http://static.tumblr.com/e6c66693fd556d0238902201972d0600/z7sewyz/vwWo7w6i4/tumblr_static_7lsovhd013kssko4og8osc80k.gif");
+	background-position:top center;
+	background-position:fixed;
+	overflow-y: hidden;
+}
 p {color:yellow;
 	
 }
 
+img { height:600px; width:600px; position:center;
+}
+#yoo {height:300px;}
 #titles {
 	position: absolute;
 	width: 20em;
